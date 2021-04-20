@@ -1,0 +1,1 @@
+'use strict';jQuery.migrateMute=getData('dotclear_jquery').mute;
