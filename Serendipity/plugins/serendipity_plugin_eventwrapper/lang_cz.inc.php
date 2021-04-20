@@ -1,0 +1,14 @@
+<?php
+
+/**
+ *  @version $Revision: 1381 $
+ *  @author Vladimír Ajgl <vlada@ajgl.cz>
+ *  EN-Revision: Revision of lang_en.inc.php
+ */
+
+@define('PLUGIN_EVENT_WRAPPER_NAME',        'Zachytávaè výstupu událostí');
+@define('PLUGIN_EVENT_WRAPPER_DESC',        'Zobrazuje data shromá¾dìná libovolným pluginem událostí');
+@define('PLUGIN_EVENT_WRAPPER_PLUGIN',      'Zdrojový plugin událostí');
+@define('PLUGIN_EVENT_WRAPPER_PLUGINDESC',  'Vyberte plugin událostí, jeho¾ výstup má být zobrazen');
+@define('PLUGIN_EVENT_WRAPPER_TITLEDESC',   'Vlo¾te nadpis tohoto postranního panelu (pokud je ponecháno prázdné, bude jako nadpis pou¾it název zobrazovaného pluginu)');
+

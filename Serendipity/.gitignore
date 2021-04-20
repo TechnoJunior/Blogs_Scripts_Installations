@@ -1,0 +1,25 @@
+# application stuff
+uploads/*
+templates_c/*
+serendipity_config_local.inc.php
+plugins/additional_plugins*
+
+# php stuff
+composer.lock
+
+# ide / dev stuff
+.cvsignore
+.htaccess*
+*.db
+private/*
+archives/*
+*~
+DEADJOE
+/.settings
+/.buildpath
+/.project
+.DS_Store
+.editorconfig
+*.git
+tests/phpunit.xml
+vagrant/*
