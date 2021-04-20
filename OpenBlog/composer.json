@@ -1,0 +1,39 @@
+{
+    "name": "enlivenapp/pubvana",
+    "description": "Install Pubvana with composer as a project. use - composer create-project enlivenapp/pubvana",
+    "keywords": [
+        "Pubvana",
+        "Composer",
+        "installer"
+    ],
+    "homepage": "https://github.com/enlivenapp/pubvana",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Enliven Applications",
+            "email": "mw@enlivenapp.com",
+            "homepage": "http://enlivenapp.com"
+        }
+    ],
+    "require": {
+            "php": "^5.4 || ^7.0",
+            "codeigniter/framework": "^3.0",
+            "michelf/php-markdown": "^1.7",
+            "kenjis/codeigniter-cli": "^0.1.0",
+            "league/oauth2-client": "^2.2",
+            "Studio-42/elFinder": "2.1.34"        
+    },
+    "autoload": {
+        "psr-4": {
+            "Enlivenapp\\Pubvana\\": "src/"
+        }
+    },
+    "scripts" : {
+        "post-create-project-cmd": [
+            "Enlivenapp\\Pubvana\\Installer::postInstall"
+        ]
+    }
+}
+
